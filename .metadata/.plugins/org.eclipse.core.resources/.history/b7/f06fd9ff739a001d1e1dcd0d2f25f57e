@@ -1,0 +1,17 @@
+server.port=8088
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.datasource.username=postgres
+spring.datasource.password=8182
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka/
+spring.application.name=product-service
+
+
+
+logging.file.path=/
+logging.file.name=productrest.logs
+logging.level.root=info
+logging.level.com.testskill.db.rest=debug
+
